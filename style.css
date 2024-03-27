@@ -1,0 +1,422 @@
+body{
+    background-color: black;
+}
+
+.btn{
+   margin-left: 20px;
+}
+
+.navelements{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logoimg{
+    width: 200px;
+    height: 90px;
+}
+.navcont{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.Maillabel{
+    text-align: center;
+    color:rgb(21, 17, 237);
+    font-size: 60px;
+    font-weight: 30px;
+    
+}
+.mainpanelcont{
+   background-image: url("./images/label1.jpg");
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+.rightlabel{
+width: 40%;
+background-image: url("./images/labelright.webp");
+
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.leftlabel{
+    width: 40%;
+    color: white;
+   
+
+}
+.labelfonthead{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+
+
+}
+.sliderdiv{
+    display: block;
+}
+.labelfont{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.trainingcont{
+    background-color: white;
+}
+.rightcard{
+    background-image: url("./images/labelright.webp");
+    height: 100%;
+   
+    background-size: cover;
+}
+.trainsubcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+.textarea{
+    width: 30rem;
+    color: white;
+    
+}
+.imageareatraining{
+    background-image: url("./images/training.webp");
+    height: 30rem;
+    width: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+.maprow{
+    opacity: 70%;
+}
+
+.imageareatraining2{
+    background-image: url("./images/yoga.png");
+    height: 30rem;
+    width: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.imageareatraining3{
+    background-image: url("./images/massage.webp");
+    height: 30rem;
+    width: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.readmorepara{
+    display: none;
+}
+.readmore{
+    color: blue;
+    cursor: pointer;
+}
+#readlesslink{
+    color: blue;
+    cursor: pointer;
+}
+.lasttraining{
+    width: 100%;
+    height: 70vh;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: transparent;
+}
+.lastcaont{
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/lastbackimg.webp");
+    background-repeat: no-repeat;
+    height:60vh;
+   
+
+}
+
+.lastcaont h1{
+  
+   
+    color: blue;
+    opacity: 100%;
+    margin-top: 100px;
+    font-size: 100px;
+    font-size: 90px;
+   
+
+}
+.lastcaont span h2{
+    font-size: 30px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+.lastcont{
+
+    margin-top: 30px;
+    position: relative;
+    display: grid;
+}
+#sliderdiv{
+  
+    width: 35%;
+    height: auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    display: none;
+    
+    
+border-radius: 5px; 
+background-image:url(./images/cover2.avif) ; 
+color: white;
+}
+
+#hidehead{
+    display: none;
+}
+#sliderdiv span{
+    margin-top: 1px;
+    font-size: 30px;
+    margin-left: 10px;
+
+}
+.mapcard{
+     height: 50vh;
+
+}
+
+.mapcol{
+    width: 30%;
+   
+   
+}
+.maprow{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer{
+    margin-top: 90px;
+    color: white;
+}
+
+.footer{
+    display: flex;
+}
+.rightsession{
+    width: 50%;
+    display: flex;
+    
+    
+   
+}
+.rightsession div a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rightsession div{
+    display: flex;
+   
+    margin-left: 20px;  
+   
+   
+   
+}
+
+.leftsession{
+    width: 50%;
+}
+.membershiplink{
+    background-color: rgb(228, 95, 148);
+    text-decoration: none;
+    color: white;
+   
+    font-size: 30px;
+    border-radius: 5px;
+    
+
+}
+.facility1{
+    background-image: url("./images/trainingfloor.webp");
+    height: 30rem;
+    width: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.facility2{
+    background-image: url("./images/cardio.webp");
+    height: 30rem;
+    width: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.facility3{
+    background-image: url("./images/turf.webp");
+    height: 30rem;
+    width: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+}
+.aminvideo{
+    height: 30vh;
+     width: 50%;
+     margin-left: 20px;
+     margin-right: 20px;
+
+}
+.aminetycontainer{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .labelfonthead{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 30px;
+    
+    
+    }
+    .labelfont{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 20px;
+    }
+
+    .nonphone{
+        display: none;
+    }
+    .needphone{
+        width: 20rem;
+        margin-left: 18px;
+    }
+
+.imageareatraining{
+  
+    display: none;
+}
+.trainsubcontainer{
+    margin-left: 20px;
+}
+
+.lastcaont{
+  
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/lastbackimg.webp");
+    background-repeat: no-repeat;
+    height:60vh;
+   
+
+}
+
+.lastcaont h1{
+  
+   
+    color: blue;
+    opacity: 100%;
+    margin-top: 100px;
+    font-size: 100px;
+    font-size: 30px;
+   
+
+}
+.lastcaont span h2{
+    font-size: 20px;
+    background-color: green;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+.maprow{
+    display: block;
+    
+   
+}
+.mapcol{
+    width: 100%;
+    margin-top: 10px;
+}
+.mapcard{
+    height: 30vh;
+    width: 100%;
+}
+.footer{
+    display: block;
+}
+.panelvideo{
+    display: none;
+}
+.panelcontainer{
+    background-image: url("./images/coverpic.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+.aminetycontainer{
+    display: flex;
+   
+}
+
+#sliderdiv{
+  
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    display: none;
+    
+    
+border-radius: 5px; 
+background-image:url(./images/cover2.avif) ; 
+color: white;
+}
+.textarea{
+width: 100%;
+}
+.aminvideo{
+    width: 50%;
+    margin-left:8px;
+    margin-right:8px;
+}
+
+}

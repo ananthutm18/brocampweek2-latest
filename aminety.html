@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="Description" content="Be proud gym Website">
+    <meta name="Keyword" content="Be proud gym">
+    <meta name="author" content="Ananthu TM">
+    <title>The proud gym</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+
+    <!------------nav bar------------------------------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid navcont">
+
+          <img src="./images/logo.jpg" class="logoimg" width="30" height="24" alt="logo">
+          <button class="navbar-toggler" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 navelements">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Our people</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link " href="policies.html">Policies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="facility.html">Facilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="aminety.html">Amenities</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <a class ="membershiplink" href="membership.html">Chek our membership details</a>
+             
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <!--------------------------------Main panel corousel-------------------------------------->
+      <div class="container1">
+        <div class="panelcontainer" style="width: 100%; margin-left: 1px;">
+            <img class="panelvideo" autoplay src="./images/coverpic.webp" style="width: 100%; height: 70vh;" alt="panelcover">
+        </div>
+      </div>
+
+     
+
+     
+
+      <!-------------------------Main labe div session----------------------->
+    
+
+      <!-------------------------------------------Training description--------------------------------->
+      <h1 class="Maillabel">Check Our Amenities.</h1>
+
+      <div class="container"style="margin-top: 200px;">
+        <div class="container aminetycontainer" >
+            <div class="textarea">
+                 <h1>Kids Club</h1>
+            <br>
+        <p class="readless">Sorry parents. We have removed using your kids as an excuse for why you don't have time. 
+          Your children will have a blast in our all new club while you attack your goals out on the gym floor. 
+          (6 months to 12 years permitted) <span id="readmorelink1" class="readmore" onclick="showmore('readmorepara1','readmorelink1')">read more</span> </p>
+
+
+            <p id="readmorepara1" class="readmorepara">
+              Hours: <br> 8 am - 12 pm & 4 pm - 8 pm<br>
+
+Saturday: 8 am to 12 pm  <br>Since the floor is too big you dont need to worry about your time.. 
+                you will get plenty of time to do your session-
+                 <span id="readlesslink" class="readless" onclick="showless('readmorepara1','readmorelink1')">read less</span> </p>
+        </div>
+        <video title="video" class="aminvideo" controls src="./images/kidsclub.mp4 ">
+          <track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions">
+            </video>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+      <br><br><br>
+
+      <div class="container" style="margin-top:200px;">
+        <div class="container aminetycontainer">
+
+            <video title="video" class="aminvideo" controls src="./images/restroom.mp4">
+            <track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions"></video>
+            <div class="textarea"> <h1>Recover Room</h1>
+            <br>
+        <p class="readless">By laying down 10 to 
+          20 minutes in our latest medical breakthrough CRYOLOUNGE+, HumanTouch, or HYDROMASSAGE chairs
+           will ease your body of pain, discomfort, and aches.
+            <span id="readmorelink2" class="readmore" onclick="showmore('readmorepara2','readmorelink2')">read more</span> </p>
+
+
+            <p id="readmorepara2" class="readmorepara">The lates multi technologies also help you to do your resting session in an efficient way. so you dint need to worry abot getting
+              panin <span id="readlesslink" class="readless" onclick="showless('readmorepara2','readmorelink2')">read less</span> </p>
+        </div>
+           
+           
+        </div>
+      </div>
+
+
+    <br> <br>
+
+      <div class="container" style="margin-top: 200px;">
+        <div class="container aminetycontainer">
+            <div class="textarea"> <h1>Executive Locker Rooms & Sauna</h1>
+            <br>
+        <p class="readless">We've upgraded our locker rooms, showers, and Himalayan salt sauna to give you a
+           spa-like sensation people travel to elite resorts for.
+
+            <span id="readmorelink3" class="readmore" onclick="showmore('readmorepara3','readmorelink3')">read more</span> </p>
+
+            
+            <p id="readmorepara3" class="readmorepara">Though this  facility we are helping our members to keep tehir belongingd safely <span id="readlesslink" class="readless" onclick="showless('readmorepara3','readmorelink3')">read less</span> </p>
+        </div>
+           
+        <video title="video" class="aminvideo" controls src="./images/locker.mp4 ">
+          <track src="captions_en.vtt" kind="captions" srclang="en" label="english_captions"></video>
+
+          
+        </video>
+        </div>
+      </div>
+
+
+
+
+      <!-------------------------------Location---------------------------------------------->
+
+      <h2 class="Maillabel">Our Hubs</h2>
+      <div class="container">
+
+        <div class="row maprow">
+            <div class="col-3 mapcol">
+                <div class="card mapcard" style="width: 100%;">
+                    <div class="mapcont" style="overflow: hidden;">
+                        <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15719.130248438822!2d76.2838988871582!3d9.952040999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087386c38af583%3A0x637db960f4c2dc73!2sDream%20Gym!5e0!3m2!1sen!2sin!4v1711353641777!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">ggsd locat kakkaanadu po kochu  688676</p>
+                      <p class="card-text">Ph:73647643734</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-3 mapcol">
+                <div class="card mapcard" style="width: 100%;">
+                    <div class="mapcont" style="overflow: hidden;">
+                        <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15719.130248438822!2d76.2838988871582!3d9.952040999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087386c38af583%3A0x637db960f4c2dc73!2sDream%20Gym!5e0!3m2!1sen!2sin!4v1711353641777!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">ggsd locat kakkaanadu po kochu  688676</p>
+                        <p class="card-text">Ph:73647643734</p>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-3 mapcol">
+                <div class="card mapcard" style="width: 100%;">
+                    <div class="mapcont" style="overflow: hidden;">
+                        <iframe title="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15719.130248438822!2d76.2838988871582!3d9.952040999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b087386c38af583%3A0x637db960f4c2dc73!2sDream%20Gym!5e0!3m2!1sen!2sin!4v1711353641777!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">ggsd locat kakkaanadu po kochu  688676</p>
+                        <p class="card-text">Ph:73647643734</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+
+      </div>
+
+
+     
+      <div class="container">
+        <div class="footer">
+            <div class="leftsession">
+                <h2>© 2022-2024 BeProud gym</h2><br><br>
+                <h4>250 Road kakkanadu Junction, Kochi Ernakulam Kerala 34986
+
+                </h4><br><br>
+                <h4>Hours of operation
+
+                </h4><br><br>
+                <p>Monday - Friday - 5:00 a.m - 11:00 p.m
+
+                </p>
+                <p>Saturday - Sunday - 5:00 a.m - 6:00 p.m
+
+                </p><br><br>
+
+            </div>
+
+            <div class="rightsession">    
+              <div> <a href="https://www.facebook.com/profile.php?id=100069548643560" aria-label="be proud"><h2><i class="fa-brands fa-facebook"></i></h2></a>
+                <a href="https://www.instagram.com/ananthu_t_m?igsh=OGxkb2JzM3U1bzNi&utm_source=qr" aria-label="be proud"><h2><i class="fa-brands fa-square-instagram"></i></h2></a>
+                <a href="https://www.youtube.com/channel/UCEdYXe0IHveiARBNaN6-75A" aria-label="be proud"><h2><i class="fa-brands fa-youtube"></i></h2></a></div>        
+           </div>
+
+        </div>
+      </div>
+
+      
+
+      <script>
+        function showmore(a,b){
+               var st1=a;
+               
+               document.getElementById(a).style.display="inline"
+               document.getElementById(b).style.display="none"
+   
+              
+   
+   
+           }
+   
+           function showless(a,b){
+               document.getElementById(a).style.display="none"
+               document.getElementById(b).style.display="inline"
+              
+   
+           }
+           var check=document.getElementById("sliderdiv")
+           function coupenshow(){
+               check.style.display="inline"
+   
+           }
+   
+           function coupehide(){
+               check.style.display="none"
+   
+   
+           }
+   var h=document.getElementById("hidehead")
+           function butnclick(){
+   h.style.display="inline"
+           }
+   </script>
+
+     
+
+
+
+
+    
+
+
+    <script src="./js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" 
+    crossorigin="anonymous"></script>
+</body>
+</html>
