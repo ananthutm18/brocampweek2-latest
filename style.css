@@ -58,6 +58,29 @@ background-repeat: no-repeat;
 
 
 }
+
+
+.panelcontainer{
+    background-image: url("./images/panellogo2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+}
+
+.logohead{
+    position: absolute;
+    right: 320px;
+    top: 120px;
+   
+}
+.logohead h2{
+    font-size: 38px;
+    font-weight: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
 .sliderdiv{
     display: block;
 }
@@ -427,6 +450,10 @@ width: 100%;
 }
 .rightsession{
     width: 100%;
+}
+
+.logohead{
+display: none;
 }
 
 
