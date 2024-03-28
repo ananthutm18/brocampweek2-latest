@@ -355,6 +355,7 @@ var txt=document.getElementById("exampleFormControlTextarea1")
 else{
 
           e.preventDefault()
+          msg.innerHTML="Sending your message..."
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {msg.innerHTML="Sent Successfully"
         setTimeout(function(){
